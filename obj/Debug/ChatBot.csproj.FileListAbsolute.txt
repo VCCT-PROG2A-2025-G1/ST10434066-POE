@@ -1,0 +1,12 @@
+/Users/fayyaadparker/Desktop/C#/ChatBot/bin/Debug/ChatBot.exe
+/Users/fayyaadparker/Desktop/C#/ChatBot/bin/Debug/ChatBot.pdb
+/Users/fayyaadparker/Desktop/C#/ChatBot/obj/Debug/ChatBot.csproj.AssemblyReference.cache
+/Users/fayyaadparker/Desktop/C#/ChatBot/obj/Debug/ChatBot.csproj.CoreCompileInputs.cache
+/Users/fayyaadparker/Desktop/C#/ChatBot/obj/Debug/ChatBot.exe
+/Users/fayyaadparker/Desktop/C#/ChatBot/obj/Debug/ChatBot.pdb
+/Users/fayyaadparker/Desktop/ChatBot/bin/Debug/ChatBot.exe
+/Users/fayyaadparker/Desktop/ChatBot/bin/Debug/ChatBot.pdb
+/Users/fayyaadparker/Desktop/ChatBot/obj/Debug/ChatBot.csproj.AssemblyReference.cache
+/Users/fayyaadparker/Desktop/ChatBot/obj/Debug/ChatBot.csproj.CoreCompileInputs.cache
+/Users/fayyaadparker/Desktop/ChatBot/obj/Debug/ChatBot.exe
+/Users/fayyaadparker/Desktop/ChatBot/obj/Debug/ChatBot.pdb
