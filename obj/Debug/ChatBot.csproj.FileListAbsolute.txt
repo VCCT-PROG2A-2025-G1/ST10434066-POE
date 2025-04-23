@@ -10,3 +10,10 @@
 /Users/fayyaadparker/Desktop/ChatBot/obj/Debug/ChatBot.csproj.CoreCompileInputs.cache
 /Users/fayyaadparker/Desktop/ChatBot/obj/Debug/ChatBot.exe
 /Users/fayyaadparker/Desktop/ChatBot/obj/Debug/ChatBot.pdb
+C:\Users\lab_services_student\Desktop\ChatBot\obj\Debug\ChatBot.csproj.AssemblyReference.cache
+C:\Users\lab_services_student\Desktop\ChatBot\obj\Debug\ChatBot.csproj.CoreCompileInputs.cache
+C:\Users\lab_services_student\Desktop\ChatBot\obj\Debug\ChatBot.exe
+C:\Users\lab_services_student\Desktop\ChatBot\obj\Debug\ChatBot.pdb
+C:\Users\lab_services_student\Desktop\ChatBot\bin\Debug\Voice1.wav
+C:\Users\lab_services_student\Desktop\ChatBot\bin\Debug\ChatBot.exe
+C:\Users\lab_services_student\Desktop\ChatBot\bin\Debug\ChatBot.pdb

@@ -1,22 +1,41 @@
-﻿/*
- *
- *
- *
+﻿/* Fay-yaad Ahmed Parker
+ * ST10434066
+ * Group 1
+ * References:
+ * OpenAI (2025). OpenAI. [online] OpenAI. Available at: https://openai.com/.
+ * GeeksforGeeks. (2018). C# Programming Language - GeeksforGeeks. [online] Available at: https://www.geeksforgeeks.org/csharp-programming-language/.
+ * 
+ * 
+ * -----------------------------------------------------------------------------------------------------------
  */
+
 
 
 using System;
 using System.IO;
 using System.Media;
+using System.Threading;
 
 namespace ChatBot
 {
+   
     internal class Program
     {
+        static string userName = "User";
+        //Main method to run the program.
         public static void Main(string[] args)
         {
-            WelcomeMessage();
+          
+            WelcomeMessage(); 
+            Ascii();
+           Typing("---------------------------------------------------------------");
+           string username = GetUserName();
+           Typing("---------------------------------------------------------------");
+           ChatLoop();
         }
+
+
+
 
         
         // WELCOME MESSAGES AND LOGO PRINTING METHODS.
@@ -30,7 +49,7 @@ namespace ChatBot
             }
             else
             {
-                Console.WriteLine("Audio file could not be found.");
+                Typing("Audio file could not be found.");
             }
         }
 
@@ -38,26 +57,28 @@ namespace ChatBot
         {
             Console.ForegroundColor = ConsoleColor.Green;
             var asciiArt = @"
- 
+                        CYBER SECURITY CHATBOT
                                _______
                              /         \
                             /   _____   \
-                           |   |     |  |
-                           |   |     |  |
-                           |   |_____|  |
-                           |     ___    |
-                           |    |___|  |
-                            \         /
-                             \_______/
-                             /       \
-                            |  CYBER  |
-                            | CHATBOT |
-                             \_______/
+                           |   |     |   |
+                           |   |     |   |
+                           |   |_____|   |
+                           |     ___     |
+                           |    |___|    |
+                            \           /
+                             \_________/
+                              /       \
+                             |         |
+                             |         |
+                              \_______/
                                         
             ";
             Console.WriteLine(asciiArt);
             Console.ResetColor();
         }
+
+
 
         // INPUT AND OUTPUT HANDLING.
 
@@ -66,16 +87,33 @@ namespace ChatBot
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Write("Enter Username:");
             var username = Console.ReadLine();
-            Console.WriteLine($"\n Hello {username}, Welcome to CyberSecurity Awareness Assistant " +
+            Typing($"\n Hello {username}, Welcome to CyberSecurity Awareness Assistant " +
                               "\n I am here to help you stay safe online.");
             Console.ResetColor();
             return username;
         }
+
+
+
+
+        //TYPING EFFECTS SUCH AS DELAYS
+        static void Typing(string message)
+        {
+             int delay = 20;
+            foreach (char c in message)
+            {
+                Console.Write(c);
+                Thread.Sleep(delay);
+            }
+            Console.WriteLine();
+        }
+
+
         //CHATBOT SETTINGS
         public static void BotMessage(string message)
         {
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("CyberBot:"+ message);
+            Typing("CyberBot:"+ message);
             Console.ResetColor();
         }
 
@@ -83,12 +121,15 @@ namespace ChatBot
         {
             //sets the user colour, name and avoids null errors and type case errors.
             Console.ForegroundColor = ConsoleColor.Blue;
-            string user = GetUserName();
-            Console.Write(user);
+            Console.WriteLine($"{userName}:");
             string input = Console.ReadLine()?.Trim().ToLower();
             Console.ResetColor();
             return input;
         }
+        
+
+
+        
         // CHAT LOOP BETWEEN USER AND CHATBOT
         static void ChatLoop()
         {
@@ -112,7 +153,7 @@ namespace ChatBot
                     if (input.Equals("exit"))
                     {
                         Console.ForegroundColor = ConsoleColor.Yellow;
-                        Console.WriteLine("CyberBot: Goodbye! Stay safe online. 👋 ");
+                        Console.WriteLine("CyberBot: Goodbye! Stay safe online.  ");
                         Console.ResetColor();
                         Environment.Exit(0);
                         
@@ -120,9 +161,9 @@ namespace ChatBot
                     
                     //Logic for the responses.
                     // .contains helps the chatbot understand the quesetions posed to it.
-                    if (input.Contains("how are you?"))
+                    if (input.Contains("how are you"))
                     {
-                        BotMessage("I am feeling secure and I am ready to protect you 🤖");
+                        BotMessage("I am feeling secure and I am ready to protect you ");
                     }
                     else if (input.Contains("purpose"))
                     {
@@ -140,7 +181,7 @@ namespace ChatBot
                     }
                     else if (input.Contains("phishing"))
                     {
-                        BotMessage("Phishing is a technique used by cyber criminals to gain your personal information via email." 
+                        BotMessage("Phishing is a technique used by cyber criminals to gain your personal information via email. " 
                                    +"\n Avoid suspicious links. Companies won't ask for sensitive information via email."
                                    +"\n If still doubtful, contact the organisation directly.");
                     }
@@ -157,3 +198,4 @@ namespace ChatBot
             }
         }
     }
+//------------------------------------------------------------------END OF FILE ---------------------------------------------------------
