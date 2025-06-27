@@ -18,7 +18,7 @@ A Windows Forms application built in C# that educates users about cybersecurity 
 3. Build and run the project.
 4. Make sure your `.NET` dependencies and WinForms packages are up to date.
 
-## Part 3 Deliverables
+## Part 3
 - Windows Forms GUI
 - Chat functionality (chatBox + inputBox)
 - Start Quiz button and quiz logic
