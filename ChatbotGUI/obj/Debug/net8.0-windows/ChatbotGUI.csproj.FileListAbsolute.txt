@@ -1,0 +1,16 @@
+C:\Users\lab_services_student\Desktop\ChatbotGUI\ChatbotGUI\obj\Debug\net8.0-windows\ChatbotGUI.Form1.resources
+C:\Users\lab_services_student\Desktop\ChatbotGUI\ChatbotGUI\obj\Debug\net8.0-windows\ChatbotGUI.csproj.GenerateResource.cache
+C:\Users\lab_services_student\Desktop\ChatbotGUI\ChatbotGUI\obj\Debug\net8.0-windows\ChatbotGUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lab_services_student\Desktop\ChatbotGUI\ChatbotGUI\obj\Debug\net8.0-windows\ChatbotGUI.AssemblyInfoInputs.cache
+C:\Users\lab_services_student\Desktop\ChatbotGUI\ChatbotGUI\obj\Debug\net8.0-windows\ChatbotGUI.AssemblyInfo.cs
+C:\Users\lab_services_student\Desktop\ChatbotGUI\ChatbotGUI\obj\Debug\net8.0-windows\ChatbotGUI.csproj.CoreCompileInputs.cache
+C:\Users\lab_services_student\Desktop\ChatbotGUI\ChatbotGUI\bin\Debug\net8.0-windows\ChatbotGUI.exe
+C:\Users\lab_services_student\Desktop\ChatbotGUI\ChatbotGUI\bin\Debug\net8.0-windows\ChatbotGUI.deps.json
+C:\Users\lab_services_student\Desktop\ChatbotGUI\ChatbotGUI\bin\Debug\net8.0-windows\ChatbotGUI.runtimeconfig.json
+C:\Users\lab_services_student\Desktop\ChatbotGUI\ChatbotGUI\bin\Debug\net8.0-windows\ChatbotGUI.dll
+C:\Users\lab_services_student\Desktop\ChatbotGUI\ChatbotGUI\bin\Debug\net8.0-windows\ChatbotGUI.pdb
+C:\Users\lab_services_student\Desktop\ChatbotGUI\ChatbotGUI\obj\Debug\net8.0-windows\ChatbotGUI.dll
+C:\Users\lab_services_student\Desktop\ChatbotGUI\ChatbotGUI\obj\Debug\net8.0-windows\refint\ChatbotGUI.dll
+C:\Users\lab_services_student\Desktop\ChatbotGUI\ChatbotGUI\obj\Debug\net8.0-windows\ChatbotGUI.pdb
+C:\Users\lab_services_student\Desktop\ChatbotGUI\ChatbotGUI\obj\Debug\net8.0-windows\ChatbotGUI.genruntimeconfig.cache
+C:\Users\lab_services_student\Desktop\ChatbotGUI\ChatbotGUI\obj\Debug\net8.0-windows\ref\ChatbotGUI.dll
